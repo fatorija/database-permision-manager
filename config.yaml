@@ -1,0 +1,9 @@
+users:
+  - 
+    username: leonardo.ponzio
+    userType: Admin
+  - 
+    username: sucu.trule
+    userType: QA
+
+  
