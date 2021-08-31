@@ -1,9 +1,43 @@
+# EXAMPLE
+#users:
+#  - username: username
+#    userType: Admin # One of Admin|Backend|QA
+#  - username: username2
+#    userType: QA # One of Admin|Backend|QA
+#servers:
+#  -
+#    engine: mysql
+#    admin:
+#      username: <your_username> # you need to be an admin
+#      password: <your_password>
+#    server_url: <server_endpoint>
+#    schemas:
+#      - schema1
+#  -
+#    engine: postgresql
+#    admin:
+#      username: <your_username> # you need to be an admin
+#      password: <your_password>
+#    server_url: <server_endpoint>
+#    schemas:
+#      - schema1
+#      - schema2
 users:
-  - 
-    username: leonardo.ponzio
-    userType: Admin
-  - 
-    username: sucu.trule
-    userType: QA
-
-  
+  - username:
+    userType:
+servers:
+  - engine: mysql
+    admin:
+      username:
+      password:
+    server_url:
+    schemas:
+      - schema1
+  - engine: postgresql
+    admin:
+      username:
+      password:
+    server_url:
+    schemas:
+      - schema1
+      - schema2
